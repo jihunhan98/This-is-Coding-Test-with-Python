@@ -8,13 +8,8 @@ def bfs(x, y):
         return False
 
     if graph[x][y] == 1:
-
         bfs(x, y+1)
         bfs(x+1, y)
-
-
-
-
 
 n, m = map(int, input().split())
 graph = []
